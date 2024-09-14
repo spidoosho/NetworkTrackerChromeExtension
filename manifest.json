@@ -1,0 +1,7 @@
+{
+  "name": "Network Tracker",
+  "description": "Tracks successfully completed network requests in real time",
+  "version": "1.0",
+  "manifest_version": 3,
+  "devtools_page": "devtools.html"
+}
