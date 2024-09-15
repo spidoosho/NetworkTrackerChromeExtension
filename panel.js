@@ -1,5 +1,10 @@
 chrome.devtools.network.onRequestFinished.addListener(
     function (request) {
+        // filter out statuses that are not successful
+        if(request.response.status < 200 || request.response.status >= 300){
+            return;
+        }
+
         const counterEl = document.getElementById("counter");
 
         if (counterEl == null) {
