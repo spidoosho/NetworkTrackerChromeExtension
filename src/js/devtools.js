@@ -1,0 +1,1 @@
+chrome.devtools.panels.create('Network tracker', 'img/icon-48.png', 'src/trackerPanel.html');

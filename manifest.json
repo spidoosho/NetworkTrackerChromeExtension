@@ -3,5 +3,9 @@
   "description": "Tracks successfully completed network requests in real time",
   "version": "1.0",
   "manifest_version": 3,
-  "devtools_page": "devtools.html"
+  "icons": {
+    "48": "img/icon-48.png",
+    "128": "img/icon-128.png"
+  },
+  "devtools_page": "src/devtools.html"
 }
