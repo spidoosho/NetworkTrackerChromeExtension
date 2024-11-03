@@ -2,6 +2,8 @@
 
 Test task 2 for Aqua Web Inspector as a Chrome Extension Internship.
 
+![Logo](./img/app.png "Network Tracker Chrome Extension")
+
 ## Functionalities
 
 - Counts successful and total finished requests in a DevTools panel
