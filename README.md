@@ -7,8 +7,8 @@ Test task 2 for Aqua Web Inspector as a Chrome Extension Internship.
 ## Functionalities
 
 - Counts successful and total finished requests in a DevTools panel
-- Reset counters
 - Warns if a counter is Nan and therefore cannot be updated
+- Reset counters and warning
 
 ## How to install extension
 
@@ -27,7 +27,7 @@ Test task 2 for Aqua Web Inspector as a Chrome Extension Internship.
 
 ## Possible additional features
 
-- Most of the features are already in Network tab
+- Most of the features are already in the Network tab
 - Start/Pause/Stop when to track requests
 
 ## My coding process

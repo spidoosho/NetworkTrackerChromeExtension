@@ -8,7 +8,7 @@ import {
 /**
  * Filters request based on response status and updates trackers with ids "counterSuccessful" and "counterTotal".
  *
- * @param {Request} request finished request to be processed
+ * @param {Request} request finished request to be processed.
  */
 function trackFinishedRequests(request) {
     // check if finished request is successful
@@ -71,7 +71,7 @@ function resetCounter() {
 }
 
 /**
- * Toggles navigation burger
+ * Toggles navigation burger.
  */
 function toggleNavBurger() {
     const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
