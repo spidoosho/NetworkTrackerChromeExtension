@@ -68,6 +68,7 @@ function warnUser(text) {
 function resetCounter() {
     document.getElementById("counterSuccessful").textContent = DEFAULT_COUNTER_VALUE;
     document.getElementById("counterTotal").textContent = DEFAULT_COUNTER_VALUE;
+    document.getElementById("warning").textContent = "";
 }
 
 /**
